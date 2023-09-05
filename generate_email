@@ -1,0 +1,74 @@
+package department.company.com;
+
+import java.util.Scanner;
+public class Email{
+	private String firstName;
+	private String lastName;
+	private String password;
+	private String department;
+	private String comName = "department.company.com";
+	
+	public Email (String firstName, String lastName) {
+		this.firstName= firstName;
+		this.lastName= lastName;
+		System.out.println("Email address created for :"+ this.firstName+" "+this.lastName);
+		
+		private String setDepartment() {
+			System.out.print("Department number:\n1)Technical \n2) Human Resource\n3) Admin\n4)Legal\nEnter department number");
+			
+		
+			Scanner scanner = new Scanner(system.in);
+			String department= scanner.nextString();
+			scanner.close();
+			if(department==1) {return "Technical";}
+			else if(department==2) {return "Human Resource";}
+			else if(department==3) {return "Admin";}
+			else if(department==4) {return "Legal";}
+			else {return " ";}
+			
+			private String setPassword(int Length) {
+				String PasswordChar= "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*";
+				char[]password= new char [length];
+				for(int i=0; i<length;i++) {
+					int random=(int)(Math.random()*passwordChar. length());
+					
+					return new String(password);
+					
+					public Email(String firstName, String lastName) {
+						this.firstName= firstName;
+						this.firstName= lastName;
+						System.out.println("Email address created for :"+ this.firstName+" "+this.lastName);
+						this.department = setDepartment(;)
+						System.out.println("Department:" + this.department);
+						
+						this.password = setPassword(10);
+						System.out.println("password : +this.password");
+						
+						public class Email {
+
+							public static void main(String[] args) {
+
+							Scanner scanner = new Scanner(System.in);
+
+							System.out.println(“Enter your firstName: “);
+
+							String firstName = scanner.next();
+
+							System.out.println(“Enter your lastName: “);
+
+							String lastName = scanner.next();
+
+							Email obj = new Email(firstName,lastName);
+
+							obj.info();
+
+							scanner.close();
+					}
+				}
+		
+			}
+			
+		
+		}
+	}
+}
